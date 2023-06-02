@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css Style Sheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- ------------------------------------------- -->
+    <!-- Fonts  -->
+    <!-- <link rel="stylesheet" href="./Fonts/PressStart2P-Regular.ttf" /> -->
+    <!-- ------------------ -->
+    <title>Guess My Number Game</title>
+  </head>
+  <body>
+    <main>
+      <!-- Section 1 -->
+      <section class="sec-1">
+        <h1 class="main-heading">Guess My Number!</h1>
+        <p class="guess-text">(Guess Number Between 1 and 20)</p>
+        <div class="container">
+          <p class="secret-number">?</p>
+          <button class="btn btn-start">Start! ▶</button>
+        </div>
+      </section>
+      <!-- Section 2 -->
+      <section>
+        <p class="sub-heading">Click on Start! to Play 🔼</p>
+        <div class="sec-2">
+          <div class="container">
+            <input class="input-box" type="number" placeholder="Type Here!" />
+            <button class="btn btn-check">Check!</button>
+          </div>
+          <div class="container">
+            <p>🎰 Status: <span class="score-status">?</span></p>
+            <p>💯 Score: <span class="score-number">? 🎯</span></p>
+            <p>🥇 High Score: <span class="high-score-number">0</span></p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+</html>
