@@ -26,6 +26,7 @@ const displaySecretNumber = function (message) {
     document.querySelector('.secret-number').textContent = message;
 };
 
+
 // On Click for Start, Restart & Reset Button button 
 document.querySelector('.btn-start').addEventListener('click', function () {
     // On Click Start
@@ -88,6 +89,7 @@ document.querySelector('.btn-check').addEventListener
                 displaySubHeading("☠ You Lose,Start Again!");
                 displayScoreNumber(0);
                 displayBtnStart("Restart!🔂");
+                document.querySelector('body').style.backgroundColor = "#ab3030";
             }
         }
     }
